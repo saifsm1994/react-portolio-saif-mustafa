@@ -88,6 +88,7 @@ class Project1 extends Component {
                     </Col>
                 </Row>
 
+                <Row style={{"marginBottom": "20px"}}></Row>
 
             </Jumbotron>
         );

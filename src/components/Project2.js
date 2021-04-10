@@ -15,7 +15,13 @@ class Project2 extends Component {
                     <Col xs={12} sm={12} xl={{ span: 6, offset: 1 }} md={{ span: 6, offset: 1 }} >
                         <h1>2. RLFT - Regex Lookup and Formatter</h1>
                         <p>
-                            A simple ReactJS application that allows users to:
+                            <em>Do you need to search through documents for specific keywords or phrases? Do you have to manually format extracted text to remove unnecessary line breaks and indentation? Do you want to filter Google Spreadsheets based on chosen column values but find it takes far too long to manually select each desired value? This React JS application attempts to address each of these pain points.</em>
+                            <br />
+                            <br />
+                            <strong>What it is:</strong>
+                            <br />
+
+                            RLFT is a responsive React JS based website that uses Regex based data parsing to automatically parse text in response to user queries, format text to address common PDF extracted text issues, and apply highly useful but syntax sensetive spreadsheet formulas. Key features include:
                             <ul>
                                 <br />
                                 <li><strong>Search Large Text Documents for keywords, keyword frequency, positioning and surroundings</strong>
@@ -87,6 +93,8 @@ class Project2 extends Component {
                         </Carousel>
                     </Col>
                 </Row>
+                <Row style={{"marginBottom": "20px"}}></Row>
+
             </Jumbotron>
         );
     }

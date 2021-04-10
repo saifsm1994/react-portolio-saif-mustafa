@@ -85,6 +85,8 @@ class ContactMe extends Component {
                         </Form>
                     </Col>
                 </Row>
+                <Row style={{"marginBottom": "20px"}}></Row>
+
             </Jumbotron>
         );
     }

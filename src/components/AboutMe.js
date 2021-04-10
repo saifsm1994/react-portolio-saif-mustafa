@@ -20,7 +20,7 @@ class AboutMe extends Component {
                     <Col xs={12} xl={{ span: 8, offset: 2 }} md={{ span: 8, offset: 2 }} >
                         <h1>About Me</h1>
                         <p>
-                            Aspiring Self-taught Developer proficient in HTML, CSS, JavaScript, Node.js and React. I am currently employed full time as a Medical Policy Analyst in Vancouver, Canada but am always seeking opportunities to further develop my programming skills through the creation of useful projects and online courses.
+                            Self-taught Vancouver based Web Developer proficient in HTML, CSS, JavaScript, Node.js and React. Currently employed full time as a Medical Policy Analyst in Vancouver, Canada but seeking opportunities.
                     < br />
                             < br />
                             Please find two of my most recent projects featured here in the Project 1 and 2 tabs.
@@ -42,7 +42,7 @@ class AboutMe extends Component {
                     <Col xl={{ span: 8, offset: 2 }} md={{ span: 8, offset: 2 }} style={{ "margin-top": "20px", "padding-bottom": "20px" }} data-aos="zoom-in">
                         <h1 style={{ "margin-bottom": "20px" }}>Proficient Skills</h1>
                         <Row>
-                            <Col xl={3} lg={3} md={3} sm={12} xs={12} >
+                            <Col xl={3} lg={3} md={6} sm={12} xs={12} style={{"marginBottom": "20px"}}>
                                 <div><i className="fa fa-html5 fa-4x"> HTML</i></div>
                                 <Col>
                                     <div><i className="fa fa-css3 fa-2x"> CSS</i></div>
@@ -55,7 +55,7 @@ class AboutMe extends Component {
                                 </Col>
                             </Col>
 
-                            <Col xl={4} lg={4} md={4} sm={12} xs={12}>
+                            <Col xl={4} lg={4} md={6} sm={12} xs={12} style={{"marginBottom": "20px"}}>
                             <div><i className="fa fa-4x"><FontAwesomeIcon icon={faNodeJs} /> node.JS</i></div>
 
                                 <Col>
@@ -67,7 +67,7 @@ class AboutMe extends Component {
                                 </Col>
                             </Col>
 
-                            <Col xl={5} lg={5} md={5} sm={12} xs={12}>
+                            <Col xl={5} lg={5} md={6} sm={12} xs={12} style={{"marginBottom": "20px"}}>
                             <div><i className="fa fa-4x"><FontAwesomeIcon icon={faJs} /> JavaScript</i></div>
                                 <Col>
                                     <div><i className="fa fa-2x"><FontAwesomeIcon icon={faReact} /> React</i></div>
@@ -81,6 +81,7 @@ class AboutMe extends Component {
 
                     </Col>
                 </Row>
+                <Row style={{"marginBottom": "20px"}}></Row>
 
             </Jumbotron>
         );

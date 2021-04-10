@@ -8,8 +8,11 @@ class HeaderPage extends Component {
         return (
 
 <Container>
-    <Jumbotron style={{"height": "100vh", "background-color": "transparent"}}>
-
+    <Jumbotron style={{"height": "100vh", "background-color": "transparent", "color": "white"}}>
+            <div style={{"margin-top": "20%", "background-color": "transparent"}}>
+            <h1 style={{"fontSize": "72px", "textDecorationLine": "underline","paddingBottom": "10px"}}>Saif Mustafa</h1>
+            <h3>Full Stack JavaScript Web Developer</h3>
+            </div>
     </Jumbotron>
 </Container>
         );
